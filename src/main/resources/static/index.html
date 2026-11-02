@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProntPet | Bem-vindo</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #102a43, #2563a6);
+            color: white;
+            padding: 24px;
+        }
+
+        .container {
+            max-width: 650px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #dbeafe;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 28px;
+            background: white;
+            color: #174477;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .button:hover {
+            background: #dbeafe;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Bem-vindo ao ProntPet!</h1>
+
+        <p>
+            Sua plataforma de gerenciamento veterinário.
+            Acesse a documentação da nossa API para
+            conhecer os recursos disponíveis.
+        </p>
+
+        <a class="button" href="/swagger-ui/index.html">
+            Acessar Swagger
+        </a>
+    </main>
+</body>
+</html>
