@@ -7,17 +7,17 @@
 
 ## Repositório
 
-- GitHub Back-End:
+- GitHub:
   
-  https://github.com/Challenge-2TDSPX-2026/JavaProntPet
-
-- GitHub Front-End:
- 
-  https://github.com/Challenge-2TDSPX-2026/MobileProntPet
+  https://github.com/Challenge-2TDSPX-2026/ProntPet-Pipelines-Sprint4.git
 
 - Vídeo:
   
   https://youtu.be/kIto_wLHg4c?si=ataRskDGePs_wDHD
+
+- Projeto no Azure DevOps:
+  
+  https://dev.azure.com/rm566526/Sprint%204%20%E2%80%93%20Azure%20DevOp
 
 # ProntPet
 
